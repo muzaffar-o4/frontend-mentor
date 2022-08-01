@@ -4,11 +4,219 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./sass/_normalize.scss">
+    <link rel="stylesheet" href="./sass/_normalize.scss" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Document</title>
+    <title>Imtihon</title>
   </head>
   <body>
+    <!-- header -->
+    <div class="header container">
+
+      <div class="header__curtain--off"></div>
+      <!-- header left -->
+      <div class="header__left">
+        <nav class="nav">
+          <div class="nav__front">
+            <div class="front__bottom">
+              <h3 class="front__bottom--title">Frontend Mentor</h3>
+              <p class="front__bottom--subtitle">Feedback Board</p>
+            </div>
+            <div class="nav__icon">
+              <img src="./images/burger.png" alt="burger">
+            </div>
+          </div>
+          <!-- nav links -->
+          <div class="nav__link nav__link--off">
+            <div class="nav__link--icon">
+              <img src="./images/closeX.png" alt="closex">
+            </div>
+            <div class="nav__all">
+              <div class="nav__all--links">
+                <a href="#" class="all__link">All</a>
+                <a href="#" class="all__link">Ui</a>
+                <a href="#" class="all__link">Ux</a>
+                <a href="#" class="all__link">Enhancement</a>
+                <a href="#" class="all__link">Bug</a>
+                <a href="#" class="all__link">Feauture</a>
+              </div>
+            </div>
+            <!-- road map -->
+            <div class="nav__roadmap">
+              <!-- road map top -->
+              <div class="nav__roadmap--top">
+                <h3 class="roadmap--top__left">Roadmap</h3>
+                <a class="roadmap--top__right">View</a>
+              </div>
+              <!-- road map top -->
+              <div class="nav__roadmap--bottom">
+                <div class="roadmap--bottom__left">
+                  <p class="roadmap--bottom__text">Planned</p>
+                  <p class="roadmap--bottom__text">In-Progress</p>
+                  <p class="roadmap--bottom__text">Live</p>
+                </div>
+                <div class="roadmap--bottom__right">
+                  <p class="roadmap--bottom__number">2</p>
+                  <p class="roadmap--bottom__number">3</p>
+                  <p class="roadmap--bottom__number">1</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- header right -->
+      <div class="header__right">
+        <!-- header right top -->
+        <div class="header__top">
+          <div class="header__logotip">
+            <div class="header__logo"></div>
+            <div class="header__drop">
+              <p class="drop__text">Sort by :<span> Most Upvotes</span></p>
+              <div class="menu__dropdown">
+                <a href="#" class="dropdown__link">Most Upvotes</a>
+                <a href="#" class="dropdown__link">Least Upvotes</a>
+                <a href="#" class="dropdown__link">Most Upvotes</a>
+                <a href="#" class="dropdown__link">Least Upvotes</a>
+              </div>
+            </div>
+          </div>
+          <button class="header__button" onclick="window.location.href='form.html'">+ Add Feedback</button>
+        </div>
+        <!-- header right bottom -->
+
+        <div class="header__bottom">
+          <!-- card 1 -->
+          <div class="header__card">
+            <div class="header__card--left">
+              <a href="#" class="card--left__link">112</a>
+            </div>
+            <div class="header__card--right">
+              <h3 class="card--right__title">Add tags for solutions</h3>
+              <p class="card--right__subtitle">
+                Easier to search for solutions based on a specific stack.
+              </p>
+              <a class="card--right__btn" href="#">Enhancement</a>
+            </div>
+            <div class="card--right__comment">
+              <img
+                class="comment__img"
+                src="./images/comment.svg"
+                alt="comment.svg"
+              />
+              <p class="comment__text">2</p>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="header__card">
+            <div class="header__card--left">
+              <a href="#" class="card--left__link">99</a>
+            </div>
+            <div class="header__card--right">
+              <h3 class="card--right__title">Add a dark theme option</h3>
+              <p class="card--right__subtitle">
+                It would help people with light sensitivities and who prefer
+                dark mode.
+              </p>
+              <a class="card--right__btn" href="#">Feature</a>
+            </div>
+            <div class="card--right__comment">
+              <img
+                class="comment__img"
+                src="./images/comment.svg"
+                alt="comment.svg"
+              />
+              <p class="comment__text">4</p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="header__card">
+            <div class="header__card--left">
+              <a href="#" class="card--left__link">65</a>
+            </div>
+            <div class="header__card--right">
+              <h3 class="card--right__title">Q&A within the challenge hubs</h3>
+              <p class="card--right__subtitle">
+                Challenge-specific Q&A would make for easy reference.
+              </p>
+              <a class="card--right__btn" href="#">Feature</a>
+            </div>
+            <div class="card--right__comment">
+              <img
+                class="comment__img"
+                src="./images/comment.svg"
+                alt="comment.svg"
+              />
+              <p class="comment__text">1</p>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="header__card">
+            <div class="header__card--left">
+              <a href="#" class="card--left__link">51</a>
+            </div>
+            <div class="header__card--right">
+              <h3 class="card--right__title">Add tags for solutions</h3>
+              <p class="card--right__subtitle">
+                Easier to search for solutions based on a specific stack.
+              </p>
+              <a class="card--right__btn" href="#">Enhancement</a>
+            </div>
+            <div class="card--right__comment">
+              <img
+                class="comment__img"
+                src="./images/comment.svg"
+                alt="comment.svg"
+              />
+              <p class="comment__text">2</p>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="header__card">
+            <div class="header__card--left">
+              <a href="#" class="card--left__link">42</a>
+            </div>
+            <div class="header__card--right">
+              <h3 class="card--right__title">Add tags for solutions</h3>
+              <p class="card--right__subtitle">
+                Easier to search for solutions based on a specific stack.
+              </p>
+              <a class="card--right__btn" href="#">Feauture</a>
+            </div>
+            <div class="card--right__comment">
+              <img
+                class="comment__img"
+                src="./images/comment.svg"
+                alt="comment.svg"
+              />
+              <p class="comment__text">3</p>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="header__card">
+            <div class="header__card--left">
+              <a href="#" class="card--left__link">3</a>
+            </div>
+            <div class="header__card--right">
+              <h3 class="card--right__title">Add tags for solutions</h3>
+              <p class="card--right__subtitle">
+                Easier to search for solutions based on a specific stack.
+              </p>
+              <a class="card--right__btn" href="#">Bug</a>
+            </div>
+            <div class="card--right__comment">
+              <img
+                class="comment__img"
+                src="./images/comment.svg"
+                alt="comment.svg"
+              />
+              <p class="comment__text">0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="./js/main.js"></script>
   </body>
 </html>

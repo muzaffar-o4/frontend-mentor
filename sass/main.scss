@@ -3,6 +3,8 @@
 @import "./normalize";
 @import "./fonts";
 @import "./general";
+@import "./visually-hidden";
+@import "./form.scss";
 
 // block
-@import "./blocks/blocks"
+@import "./blocks/blocks";

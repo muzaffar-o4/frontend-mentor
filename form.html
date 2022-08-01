@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/form.css">
+    <title>Form</title>
+  </head>
+  <body>
+
+    <div class="form-container">
+        <a class="form__back" onclick="window.location.href='index.html'">Go Back</a>
+        <form action="https:htmlacademy.ru" method="get">
+            <div class="form__ads">
+                <img class="form__ads--plus" src="./images/plus.svg" >
+            </div>
+            <h1 class="form__title">Create New FeedBack</h1>
+
+            <!-- input 1 -->
+            <div class="input__div">
+                <h3 class="label__title">Feedback title </h3>
+            <label for="text">Add a short, descriptive headline</label>
+            <input type="text">
+            </div>
+
+            <!-- input 2 -->
+           <div class="input__div">
+            <h3 class="label__title">Category <title></title></h3>
+            <label for="choose">Choose a category for your feedback</label>
+            <select class="select" id="choose">
+                <option>Feauture</option>
+                <option>Ui</option>
+                <option>Ux</option>
+                <option>Enhancement</option>
+                <option>Bug</option>
+            </select>
+           </div>
+
+           <!-- input 3 -->
+           <div class="input__div">
+            <h3 class="label__title">Feedback Detail</h3>
+            <label for="commit">Include any specific comments on what should be improved, added, etc.</label>
+            <textarea id="commit" name="commit" rows="4" cols="50"></textarea>
+           </div>
+            <br>
+            <div class="forms__btn">
+                <input class="cancel" type="cancel" value="Cancel">
+                <input class="submit" type="submit" value="Add FeedBack">
+            </div>
+          </form>
+
+        </form>
+    </div>
+  </body>
+</html>
